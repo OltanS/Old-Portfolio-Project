@@ -4,11 +4,15 @@
   "description": "My Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b master -d build"
   },
   "author": "Oltan Sevinc",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
-  }
+  },
+  "homepage": "https://OltanS.github.io"
 }
