@@ -3,7 +3,13 @@
 }
 
 @include mediaLarge {
-
+    .other-photos {
+        .pcontainer {
+            .ophoto {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @include mediaMedium {
@@ -64,6 +70,13 @@
         }
     }
 
+    .other-photos {
+        .pcontainer {
+            .ophoto {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @include mediaSmall {

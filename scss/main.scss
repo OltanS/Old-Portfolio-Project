@@ -7,6 +7,9 @@
 }
 
 body {
+    &::-webkit-scrollbar {
+        display: none;
+    }
     @include background;
     background: $primary-color;
     color:  set-text-color($primary-color);
@@ -99,13 +102,24 @@ main {
 
 .other-photos {
     margin-top: 5vh;
-    p {
+    display: flex;
+    flex-wrap: wrap;
+    .other-bio {
+        grid-area: obio;
         font-size: 1.5rem;
     }
-    img {
-        width: 75%;
-        margin: 4vh auto;
-        display: block;
+    .pcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        
+        .ophoto {
+            width: 50%;
+        }
+
+        img {
+            width: calc(100% - (20px * 2));
+            margin: 20px;
+        }
     }
 }
 
