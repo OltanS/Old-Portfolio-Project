@@ -21,7 +21,7 @@ h1,
 h2,
 h3 {
     margin:0;
-    font-weight: 400;
+    font-weight: 500;
 
     &.lg-heading {
         font-size: 6rem;
@@ -84,7 +84,9 @@ main {
     grid-template-columns: repeat(3, 1fr);
     .bio-image {
         grid-area: bioimage;
-        margin:auto;
+        width: 250px;
+        height: 250px;
+        margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
     }
@@ -94,6 +96,33 @@ main {
         font-size:  1.5rem;
     }
 }
+
+// Projects
+.projects {
+    .item {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem 1.5rem;
+        padding-bottom: 10vh;
+        grid-template-areas: 
+        "title title . ."
+        "projectimage projectimage pinfo pinfo";
+        .project-image {
+            grid-area: projectimage;
+            width: 100%;
+            margin: auto;
+            border: #fff 3px solid;
+        }
+        .project-info {
+            grid-area: pinfo;
+        }
+        .text-secondary {
+            grid-area: title;
+            text-align: center;
+        }
+    }
+}
+
 
 #main-footer {
     height:  40px;

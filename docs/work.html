@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Work</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+           <div class="menu-branding">
+            <img src="img/me-small.png" alt="Oltan Sevinc">
+           </div> 
+           <ul class="menu-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                    About Me
+                </a>
+            </li>
+            <li class="nav-item current">
+                <a href="work.html" class="nav-link">
+                    My Work
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                    Contact Me
+                </a>
+            </li>
+           </ul>
+        </nav>
+    </header>
+    <main id="work">
+        <h1 class="lg-heading">
+            My <span class="text-secondary">Portfolio</span>
+        </h1>
+        <h2 class ="sm-heading">
+            You can see some of the projects I've worked on here. 
+        </h2>
+        <div class="projects">
+            <div class="item">
+                <h3 class="text-secondary">ResNet-34 Implementation</h3>
+                <img src="img/projects/cat-class-1.png" alt="Image showing neural network training" class="project-image">
+                <div class="project-info">
+                    <p>
+                        I implemented a ResNet architecture from scratch, gaining a deeper understanding
+                        of the inner processes of neural networks. The structure was used to classify images of cats with different fur patterns,
+                        and reached a testing accuracy of up to 80% with 8 classes. This was a part of the UNSW Course Neural Networks (COMP9444)
+                        for which I got a High Distinction grade/
+                        <br><br>
+                        <b>Experiences I Gained:</b> Data Augmentation, Knowledge of Optimisers, Setting up a Pytorch Project
+                    </p>
+                </div> 
+            </div>
+            <div class="item">
+                <h3 class="text-secondary">Taste of Research Program</h3>
+                <img src="img/projects/tor.png" alt="Taste of Research project picture" class="project-image">
+                <div class="project-info">
+                <p>
+                    After receiving the Taste of Research Scholarship from UNSW, I had the opportunity to work with a Fetch Robot.
+                    I developed a set of scenarios for participants to re-enact, and collected data regarding their movement to improve
+                    the field of Social Robotics.
+                    <br><br>
+                    <b>Experiences I Gained:</b> Robot Operating System (ROS) usage, Academic Research, Academic Processes
+                </p>
+                </div>    
+            </div>
+            <div class="item">
+                <h3 class="text-secondary">Computer Vision</h3>
+                <img src="img/projects/compvis.png" alt="Image showing computer vision results" class="project-image">
+                <div class="project-info">
+                <p>
+                    I Classified and compared the effectiveness of different methods for various computer vision tasks in a group setting.
+                    This was greatly helped by the computer vision course I took at UNSW (COMP9517) for which I had a High Distinction grade.
+                    <br><br>
+                    <b>Experiences I Gained:</b> Motion Tracking, Image Processing, Pattern Recognition, Image Segmentation
+                </p>
+                </div> 
+            </div>      
+            <div class="item">
+                <h3 class="text-secondary">UR5e Programming</h3>
+                <img src="img/projects/ur5e.png" alt="Image showing working of UR5e Robot" class="project-image">
+                <div class="project-info">
+                <p>
+                    I coded the UR5e robot manipulators made available to UNSW students to complete various tasks, such as tracing 
+                    any arbitrary set of digits at any rotation and any position in human-like fashion as pictured.
+                    <br><br>
+                    <b>Experiences I Gained:</b> Homogeneous Transformations, Inverse Kinematics, Jacobian Matrices, Robot Trajectories, UR5e usage
+                </p>
+                </div> 
+            </div>
+        </div>
+    </main>
+    
+    <footer id="main-footer">
+        Copyright &copy; 2022
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
