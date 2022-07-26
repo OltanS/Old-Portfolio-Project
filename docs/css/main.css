@@ -172,6 +172,7 @@ main {
     border-radius: 50%;
     border: #932b33 3px solid; }
   .about-info .bio {
+    text-align: justify;
     grid-area: bio;
     font-size: 1.5rem; }
 
@@ -180,6 +181,7 @@ main {
   display: flex;
   flex-wrap: wrap; }
   .other-photos .other-bio {
+    text-align: justify;
     grid-area: obio;
     font-size: 1.5rem; }
   .other-photos .pcontainer {
@@ -203,6 +205,7 @@ main {
     margin: auto;
     border: #fff 3px solid; }
   .projects .item .project-info {
+    text-align: justify;
     grid-area: pinfo; }
   .projects .item .text-secondary {
     grid-area: title;

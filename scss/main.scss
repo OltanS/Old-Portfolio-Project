@@ -95,6 +95,7 @@ main {
     }
     
     .bio {
+        text-align: justify;
         grid-area: bio;
         font-size:  1.5rem;
     }
@@ -105,6 +106,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     .other-bio {
+        text-align: justify;
         grid-area: obio;
         font-size: 1.5rem;
     }
@@ -140,6 +142,7 @@ main {
             border: #fff 3px solid;
         }
         .project-info {
+            text-align: justify;
             grid-area: pinfo;
         }
         .text-secondary {
