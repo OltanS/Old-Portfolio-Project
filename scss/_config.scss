@@ -1,8 +1,8 @@
-$primary-color: #bdbdbd;
+$primary-color: #8a8a8a;
 $secondary-color: #932b33;
 $show-home-image: true;
 $home-image: url(../img/tinkering-blur.png);
-$background-opacity: 0.25;
+$background-opacity: 0.75;
 
 @mixin easeOut {
     transition: all 0.5s ease-out;
