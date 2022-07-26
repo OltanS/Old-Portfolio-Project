@@ -97,6 +97,18 @@ main {
     }
 }
 
+.other-photos {
+    margin-top: 5vh;
+    p {
+        font-size: 1.5rem;
+    }
+    img {
+        width: 75%;
+        margin: 4vh auto;
+        display: block;
+    }
+}
+
 // Projects
 .projects {
     .item {
