@@ -178,7 +178,7 @@ main {
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem 1.5rem;
   padding-bottom: 10vh;
-  grid-template-areas: "title title . ." "projectimage projectimage pinfo pinfo"; }
+  grid-template-areas: ". title title ." "projectimage projectimage pinfo pinfo"; }
   .projects .item .project-image {
     grid-area: projectimage;
     width: 100%;
@@ -224,7 +224,11 @@ main {
     height: 150px; }
   .about-info {
     grid-template-areas: "bioimage" "bio";
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .projects .item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem 1.5rem;
+    grid-template-areas: "title" "projectimage" "pinfo"; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
